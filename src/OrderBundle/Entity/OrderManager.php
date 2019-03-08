@@ -14,7 +14,7 @@ declare(strict_types=1);
 namespace Sonata\OrderBundle\Entity;
 
 use Sonata\Component\Order\OrderManagerInterface;
-use Sonata\CoreBundle\Model\BaseEntityManager;
+use Sonata\Doctrine\Entity\BaseEntityManager;
 use Sonata\DatagridBundle\Pager\Doctrine\Pager;
 use Sonata\DatagridBundle\ProxyQuery\Doctrine\ProxyQuery;
 use Sonata\UserBundle\Model\UserInterface;
